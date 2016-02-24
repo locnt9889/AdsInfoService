@@ -1,0 +1,28 @@
+extends layout
+
+block content
+  h1 Add new Item
+    br
+    form(action='save', method='POST')
+      | Title :
+      input(type='text', name='content_title', size='150')
+      br
+      br
+      |   Poster :
+      input(type='text', name='content_poster', size='150')
+      br
+      br
+      |   Embed :
+      input(type='text', name='content_embed', size='150')
+      br
+      br
+      |   Type :
+      input(type='text', name='type', value='IMAGE')
+      br
+      br
+      |   Varidate Key :
+      input(type='text', name='key')
+      br
+      br
+      input(type='submit')
+      input(type='reset')
