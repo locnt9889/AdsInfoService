@@ -14,14 +14,12 @@ var GENERIC_SQL = {
     SLQ_REMOVE : "DELETE FROM ?? WHERE ?? = ?"
 }
 
-var TROLL_FOOTBALL_SQL_SCRIPT = {
-    GET_MAX_ID_LOCAL: "SELECT MAX(content_id) AS MaxLocal FROM troll_football_1",
-    FIND_COUNT: "SELECT COUNT(*) AS totalItems FROM troll_football_1",
-    FIND : "SELECT * FROM troll_football_1 ORDER BY content_id DESC LIMIT ?,?"
+var ADS_INFO_SQL_SCRIPT = {
+
 }
 /*Exports*/
 
 module.exports = {
     GENERIC_SQL : GENERIC_SQL,
-    TROLL_FOOTBALL_SQL_SCRIPT : TROLL_FOOTBALL_SQL_SCRIPT
+    ADS_INFO_SQL_SCRIPT : ADS_INFO_SQL_SCRIPT
 }

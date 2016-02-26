@@ -3,9 +3,10 @@
  */
 
 var TABLE_NAME_DB = {
-    TROLL_FOOTBALL : {
-        NAME : "troll_football_1",
-        NAME_FIELD_ID : "id"
+    ADMOB : {
+        NAME : "admob",
+        NAME_FIELD_ID : "id",
+        NAME_FIELD_ACTIVE : "isActive"
     }
 }
 
@@ -36,5 +37,5 @@ var ORDER_CONSTANT = {
 module.exports = {
     TABLE_NAME_DB : TABLE_NAME_DB,
     CODE_STATUS : CODE_STATUS,
-    ORDER_CONSTANT : ORDER_CONSTANT,
+    ORDER_CONSTANT : ORDER_CONSTANT
 }

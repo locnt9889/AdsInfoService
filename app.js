@@ -30,8 +30,8 @@ app.use('/users', users);
  */
 
 //ads info controller
-var adsInfoCtrl = require("./appcommon/controllers/AdsInfoCtrl");
-app.use('/rest/ads-info', adsInfoCtrl);
+var admobCtrl = require("./appcommon/controllers/AdmobCtrl");
+app.use('/rest/admob', admobCtrl);
 
 /*
  * END set config mapping url
